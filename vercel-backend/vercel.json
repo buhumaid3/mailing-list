@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/subscribe.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/subscribe", "destination": "/api/subscribe" }
+  ]
+}
